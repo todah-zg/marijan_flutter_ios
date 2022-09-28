@@ -4,9 +4,9 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 120
     environment:
-    ios_signing:
-      distribution_type: app_store
-      bundle_identifier: io.codemagic.marijan.expononejected
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: io.codemagic.marijan.expononejected
       groups:
         - appstore_credentials
       vars:
